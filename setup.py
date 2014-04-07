@@ -2,9 +2,9 @@ from setuptools import setup, find_packages
 
 version = '0.0.1'
 
-setup(name="django-sql2orm",
+setup(name="django-tools",
       version=version,
-      description=('Reverse engineer SQL queries to ORM calls'),
+      description='Various tools for dealing with SQL in django apps',
       classifiers=['Development Status :: 4 - Beta',
                    'Environment :: Web Environment',
                    'Intended Audience :: Developers',
@@ -16,7 +16,7 @@ setup(name="django-sql2orm",
       keywords='django sql orm',
       author='Shaun Duncan',
       author_email='shaun.duncan@gmail.com',
-      url='https://github.com/shaunduncan/django-sql2orm',
+      url='https://github.com/shaunduncan/django-sqltools',
       license='MIT',
       packages=find_packages(),
 )
